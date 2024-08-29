@@ -2,7 +2,7 @@ while True:
     print()
     print("TO CONVERT DOLLARS TO POUNDS TYPE; 1")
     print("TO CONVERT POUNDS TO NAIRA TYPE; 2")
-    print("To stop the program, type; 3")
+    print("TO STOP THE PROGRAM TYPE; 3")
     option = input()
     print()
     
@@ -17,7 +17,7 @@ while True:
             dollar = eval(input("Enter the amount of dollars: "))
             pounds = dollar_to_pounds(dollar)
             print("That is ",pounds , "in naira")
-        elif option == 3:
+        elif option == "3":
             print("Program ended")
             quit()
             
